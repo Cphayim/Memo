@@ -1,0 +1,15 @@
+{
+  "name": "memo",
+  "version": "1.0.0",
+  "description": "一个轻量级的备忘录",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Momo",
+    "备忘录"
+  ],
+  "author": "Cphayim",
+  "license": "ISC"
+}
