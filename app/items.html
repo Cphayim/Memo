@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>备忘录</title>
+    <link rel="stylesheet" type="text/css" href="css/mui.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    </head>
+    <body>
+        <!-- 头部 -->
+        <header class="mui-bar mui-bar-nav">
+        <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+        <h1 class="mui-title">默认备忘录</h1>
+        <a id="j-edit" class="mui-pull-right">编辑</a>
+        </header>
+
+        <!-- 主体 -->
+        <div id="refreshContainer" class="mui-scroll-wrapper mui-content">
+            <div class="mui-scroll">
+                <ul id="j-items-list" class="mui-table-view">
+                    <!--<li class="mui-table-view-cell mui-media">
+                    		<div class="mui-checkbox mui-left">
+                            <input name="checkbox" value="0" type="checkbox">
+                        </div>
+                        <a href="javascript:;" class="mui-navigate-right go">
+                            <div class="mui-media-body mui-slider-handle">
+                                <p class="mui-ellipsis">测试备忘录内容测试备忘录内容测试备忘录内容测试备忘录内容测试备忘录内容</p>
+                                <p class="last-edit-time">2017-03-08</p>
+                            </div>
+                            <div class="mui-slider-right mui-disabled">
+                                <a class="mui-btn mui-btn-red">删除</a>
+                            </div>
+                        </a>
+                    </li>-->
+                </ul>
+            </div>
+        </div>
+
+        <!-- 底部 -->
+        <nav class="mui-bar mui-bar-tab">
+            <a id="j-createItems" href="javascript:;" class="mui-pull-right mui-icon mui-icon-compose"></a>
+            <a id="j-remove" href="javascript:;" class="mui-pull-right">删除选择项</a>
+        </nav>
+
+        <!-- JavaScript -->
+        <script src="js/mui.js"></script>
+        <script src="js/util.js"></script>
+        <script src="js/items.js"></script>
+    </body>
+</html>

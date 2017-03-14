@@ -1,0 +1,34 @@
+{
+	"index.html": {
+		"resources": [
+			"css/global.css",
+			"css/animate.css",
+			"css/mui.min.css",
+			"js/mui.js",
+			"fonts/JacktHip.otf"
+		],
+		"refer": [
+			"folder.html"
+		]
+	},
+	"folder.html": {
+		"resources": [
+			"js/util.js",
+			"js/folder.js",
+			"fonts/mui.ttf"
+		],
+		"refer": [
+			"items.html"
+		]
+	},
+	"items.html": {
+		"resources": [
+			"js/items.js",
+			"css/mui.css",
+			"js/util.js",
+			"css/global.css",
+			"fonts/mui.ttf",
+			"js/mui.js"
+		]
+	}
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>app启动页面</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link href="css/mui.min.css" rel="stylesheet" />
+   	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/global.css" />
+    </head>
+    <body>
+    		<div class="m-logo">
+    			<!--animated bounce-->
+		    <h1 class="animated bounceInDown">Memo !</h1>
+		    <p class="animated fadeIn">一个极简的云备忘录</p>
+		    <div class="progress-wrap">
+		    		<div class="progress"></div>
+		    </div>
+        </div>
+        <div class="m-author">
+        		<h4>&copy; Cphayim 2017</h4>
+        		<p>https://cphayim.me</p>
+        </div>
+        <script src="js/mui.js"></script>
+        <script type="text/javascript">
+            mui.init()
+            setTimeout(function() {
+                mui.openWindow('folder.html', 'folder', {
+                    show: {
+                        aniShow: 'fade-in',
+                        duration: 500
+                    }
+                });
+            }, 2500);
+        </script>
+    </body>
+
+</html>

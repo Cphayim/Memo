@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>备忘录</title>
+    <link href="css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/global.css" />
+    </head>
+    <body>
+    		<!-- 头部 -->
+        <header class="mui-bar mui-bar-nav">
+        <h1 class="mui-title">Memo!</h1>
+        <a id="j-edit" class="mui-pull-right">编辑</a>
+        </header>
+        
+        <!-- 主体 -->
+        <div id="refreshContainer" class="mui-scroll-wrapper mui-content">
+            <div class="mui-scroll">
+                <ul id="j-folder-list" class="mui-table-view mui-table-view-chevron">
+                    <!--<li id="1234" class="mui-table-view-cell">
+                        <div class="mui-checkbox mui-left">
+                            <input id="a" name="checkbox" value="0" type="checkbox">
+                        </div>
+                        <a class="mui-navigate-right">
+                            <div class="mui-slider-handle">
+                                默认备忘录
+                            </div>
+                            <span class="mui-badge noColor">7</span>
+
+                            <div class="mui-slider-right mui-disabled">
+                                <a class="mui-btn mui-btn-red">删除</a>
+                            </div>
+                        </a>
+                    </li>
+                    <li id="12345" class="mui-table-view-cell">
+                        <div class="mui-checkbox mui-left">
+                            <input name="checkbox" value="0" type="checkbox">
+                        </div>
+                        <a class="mui-navigate-right">
+                            <div class="mui-slider-handle">
+                                学习
+                            </div>
+                            <span class="mui-badge noColor">7</span>
+
+                            <div class="mui-slider-right mui-disabled">
+                                <a class="mui-btn mui-btn-red">删除</a>
+                            </div>
+                        </a>
+                    </li>
+                    <li id="12346" class="mui-table-view-cell">
+                        <div class="mui-checkbox mui-left">
+                            <input name="checkbox" value="0" type="checkbox">
+                        </div>
+                        <a class="mui-navigate-right">
+                            <div class="mui-slider-handle">
+                                账单
+                            </div>
+                            <span class="mui-badge noColor">7</span>
+
+                            <div class="mui-slider-right mui-disabled">
+                                <a class="mui-btn mui-btn-red">删除</a>
+                            </div>
+                        </a>
+                    </li>-->
+                </ul>
+            </div>
+        </div>
+        
+        <!-- 底部 -->
+        <nav class="mui-bar mui-bar-tab">
+            <a id="j-mkdir" href="javascript:;" class="mui-pull-right">新建文件夹</a>
+            <a id="j-remove" href="javascript:;" class="mui-pull-right">删除选择项</a>
+        </nav>
+
+        <!-- JavaScript -->
+        <script src="js/mui.js"></script>
+        <script type="text/javascript" src="js/util.js"></script>
+        <script src="js/folder.js"></script>
+    </body>
+</html>

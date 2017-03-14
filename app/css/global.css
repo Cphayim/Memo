@@ -1,0 +1,61 @@
+body { background-color: #f5f5f5; }
+
+@font-face { font-family: 'JacktHip'; src: url("../fonts/JacktHip.otf"); }
+.m-logo { position: absolute; left: 50%; top: 40%; width: 100%; transform: translate(-50%, -50%); }
+.m-logo h1, .m-logo p { text-align: center; }
+.m-logo h1 { color: #000; font-size: 55px; font-family: 'JacktHip'; margin-bottom: 30px; }
+.m-logo p { color: #666; font-size: 18px; animation-delay: 1s; }
+.m-logo .progress-wrap { margin-top: 200px; width: 100%; padding: 0 20%; height: 10px; }
+.m-logo .progress-wrap .progress { width: 5%; height: 100%; background-color: #333; transform-origin: left; animation: progress 2s linear 0.5s both; }
+
+@keyframes progress { from { transform: scaleX(0); }
+  to { transform: scaleX(20); } }
+.m-author { position: absolute; left: 50%; bottom: 15px; transform: translate(-50%, -50%); text-align: center; }
+.m-author h4 { color: #777; font-size: 16px; }
+.m-author p { color: #888; font-size: 14px; }
+
+/* Header */
+.mui-bar-nav { box-shadow: none; border-bottom: 1px solid #ccc; background-color: #fff; }
+.mui-bar-nav a { color: #e4af0a; line-height: 44px; }
+.mui-bar-nav .mui-icon { font-size: 17px; vertical-align: middle; }
+.mui-bar-nav .mui-icon:before { font-size: 24px; }
+
+/* Footer */
+.mui-bar-tab { padding: 0 10px; }
+.mui-bar-tab a { line-height: 50px; }
+.mui-bar-tab #j-remove { display: none; color: #999; }
+.mui-bar-tab #j-remove.active { color: #e4af0a; }
+
+/* Share */
+.mui-bar-nav a, .mui-bar-tab a { color: #e4af0a; transition: all .2s; }
+.mui-bar-nav a:active, .mui-bar-tab a:active { color: rgba(228, 175, 10, 0.2); }
+
+.mui-bar .mui-icon { padding: 0; }
+
+.mui-content { background-color: #f5f5f5; }
+
+.mui-table-view { margin-top: 0 !important; background-color: #f5f5f5; }
+.mui-table-view .mui-table-view-cell a:not(.mui-btn).mui-active { background-color: rgba(228, 175, 10, 0.2); }
+.mui-table-view .mui-table-view-cell .mui-navigate-right { transition: all 0.4s; }
+.mui-table-view .mui-table-view-cell .mui-navigate-right .mui-badge.noColor { transition: all 0.4s; font-size: 14px; background: none; }
+.mui-table-view .mui-checkbox { opacity: 0; position: absolute; top: 0; left: 0; transition: all 0.4s; transform: translateX(-40px); }
+.mui-table-view .mui-checkbox input[type=checkbox] { left: 15px; top: 7px; }
+.mui-table-view .mui-checkbox input[type=checkbox]:checked:before { color: #e4af0a; }
+.mui-table-view.edit .mui-navigate-right { transform: translateX(40px); }
+.mui-table-view.edit .mui-navigate-right .mui-badge.noColor { opacity: 0; }
+.mui-table-view.edit .mui-checkbox { opacity: 1; transform: translateX(0); }
+
+.mui-scroll-wrapper { background-color: #f5f5f5; }
+.mui-scroll-wrapper .mui-scroll { background-color: #f5f5f5; }
+
+.mui-popup .mui-popup-button { color: #e4af0a; }
+.mui-popup .mui-popup-button.mui-popup-button-bold { font-weight: normal; }
+
+.m-detail .u-text-p, .m-detail .u-text-input { position: absolute; top: 45px; left: 0; right: 0; bottom: 150px; border: none; margin: 0; padding: 10px 15px; color: #555; background-color: #f5f5f5; font-size: 16px; }
+
+#j-createItems { font-size: 30px; }
+
+#j-items-list .mui-checkbox input[type=checkbox] { top: 20px; }
+#j-items-list .mui-ellipsis { margin-bottom: 5px; font-size: 16px; color: #444; }
+
+/*# sourceMappingURL=global.css.map */
