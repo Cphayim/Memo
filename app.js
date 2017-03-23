@@ -1,15 +1,16 @@
 /* 
- * Memo 后端入口文件
+ * Memo 服务器端入口文件
  * 负责初始化项目，核心模块加载与启动服务器
- * 
- * Author: Cphayim
- * Date: 2017-03-07
+ * @Author: Cphayim 
+ * @Date: 2017-03-07 19:27:34 
+ * @Last Modified by: Cphayim
+ * @Last Modified time: 2017-03-15 19:19:07
  */
 
 const express = require('express');
 const app = express();
 
-// 项目初始化构建模块
+// 服务端初始化构建模块
 require('./modules/init.js');
 
 // 时间格式化模块
@@ -39,6 +40,7 @@ app.all('*', function(req, res, next) {
 app.use('/folder', require('./router/folder.js'));
 app.use('/items', require('./router/items.js'));
 
+// 端口监听
 app.listen(3000, function(req, res) {
     console.log('Memo 服务器已开启...');
 });
