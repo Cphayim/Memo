@@ -6,7 +6,7 @@
 
 // 导入 mongoose 模块
 const mongoose = require('mongoose');
-const DB_URL = 'mongodb://memo:memo123456@127.0.0.1:37017/Memo';
+const DB_URL = 'mongodb://memo:123456@127.0.0.1:37017/Memo';
 
 // 连接数据库
 mongoose.connect(DB_URL);

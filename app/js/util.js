@@ -2,10 +2,10 @@
  * 
  * 服务器地址设置（全局变量）
  */
-// var host = 'http://127.0.0.1:3000';
+//var host = 'http://127.0.0.1:3000';
 //var host = 'http://172.20.10.9:3000';
 // var host = 'http://memo.cphayim.me';
-var host = 'http://node.cphayim.me';
+   var host = 'http://node.cphayim.me';
 // 4/5透明玻璃挡板
 (function(){
 	function Glass(){
